@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/docs/example-page/</loc>
+    <loc>http://localhost:1313/learn-public/docs/example-page/</loc>
     <lastmod>2025-07-07T08:42:51-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/integrations/</loc>
+    <loc>http://localhost:1313/learn-public/docs/integrations/</loc>
     <lastmod>2025-07-07T08:43:47-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/engineering-notes/</loc>
+    <loc>http://localhost:1313/learn-public/docs/engineering-notes/</loc>
     <lastmod>2025-07-07T10:36:20-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/learn-public/</loc>
     <lastmod>2025-07-07T10:36:20-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
+    <loc>http://localhost:1313/learn-public/docs/</loc>
     <lastmod>2025-07-07T10:36:20-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/learn-public/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/learn-public/tags/</loc>
   </url>
 </urlset>

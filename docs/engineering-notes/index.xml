@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Engineering Notes on Britive Learn</title>
-    <link>http://localhost:1313/docs/engineering-notes/</link>
+    <link>http://localhost:1313/learn-public/docs/engineering-notes/</link>
     <description>Recent content in Engineering Notes on Britive Learn</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/engineering-notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/learn-public/docs/engineering-notes/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
