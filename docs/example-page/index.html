@@ -80,20 +80,9 @@
                 
                     
                         
-                        <li class="">
-                            <a class="sidebar-root-link" href="http://localhost:1313/docs/engineering-notes/">
-                                <i class="material-icons me-2">article</i>
-                                
-                                Engineering Notes
-                            </a>
-                        </li>
-                    
-                
-                    
-                        
                         <li class="current">
                             <a class="sidebar-root-link" href="http://localhost:1313/docs/example-page/">
-                                <i class="material-icons me-2">article</i>
+                                <i class="material-icons me-2">folder</i>
                                 
                                 Example Page
                             </a>
@@ -104,9 +93,20 @@
                         
                         <li class="">
                             <a class="sidebar-root-link" href="http://localhost:1313/docs/integrations/">
-                                <i class="material-icons me-2"></i>
+                                <i class="material-icons me-2">folder</i>
                                 
                                 Integrations
+                            </a>
+                        </li>
+                    
+                
+                    
+                        
+                        <li class="">
+                            <a class="sidebar-root-link" href="http://localhost:1313/docs/engineering-notes/">
+                                <i class="material-icons me-2">folder</i>
+                                
+                                Engineering Notes
                             </a>
                         </li>
                     
@@ -301,7 +301,7 @@
                                         <div class="docs-content col-12 col-xl-9 mt-0">
                                             <div class="mb-0 d-flex">
                                                 
-                                                <i class="material-icons title-icon me-2">article</i>
+                                                <i class="material-icons title-icon me-2">folder</i>
                                                 
                                                 <h1 class="content-title mb-0">
                                                     Example Page
@@ -521,15 +521,6 @@
     index.add(
             {
                 id:  0 ,
-                href: "\/docs\/engineering-notes\/",
-                title: "Engineering Notes",
-                description: "",
-                content: ""
-            }
-        );
-    index.add(
-            {
-                id:  1 ,
                 href: "\/docs\/example-page\/",
                 title: "Example Page",
                 description: "First Document linkDoc string 01\n",
@@ -538,9 +529,18 @@
         );
     index.add(
             {
+                id:  1 ,
+                href: "\/docs\/integrations\/",
+                title: "Integrations",
+                description: "First linkFirst Integration space\n",
+                content: "First linkFirst Integration space\n"
+            }
+        );
+    index.add(
+            {
                 id:  2 ,
-                href: "\/docs\/",
-                title: "Docs",
+                href: "\/docs\/engineering-notes\/",
+                title: "Engineering Notes",
                 description: "",
                 content: ""
             }
@@ -548,10 +548,10 @@
     index.add(
             {
                 id:  3 ,
-                href: "\/docs\/integrations\/",
-                title: "Integrations",
-                description: "First linkFirst Integration space\n",
-                content: "First linkFirst Integration space\n"
+                href: "\/docs\/",
+                title: "Docs",
+                description: "",
+                content: ""
             }
         );
     search.addEventListener('input', show_results, true);
